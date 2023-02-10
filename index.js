@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(authRouter);
 
-const DB = "ENTER YOUR MONGODB URL";
+const DB = "ENTER YOUR MONGODB URL";  //ADD YOUR MONGODB URL
 
 mongoose.set('strictQuery', true);
 mongoose.connect(DB).then(() => { console.log("Connection Successful") }).catch((e) => { console.log(e) });
