@@ -8,7 +8,7 @@ Clone the Repository `https://github.com/vishwas-kr/Authentication-Node-Server.g
 * Head to `index.js` file and REPLACE `const DB = "ENTER YOUR MONGODB URL";` with your MongoDB url.
 
 ## Installing Server
-To run the server, run the following commands: 
+To run the server, run the following commands : 
 >`npm install` <br>
 >`npm run dev` (for continuous development) <br>
 OR <br>
